@@ -1,0 +1,43 @@
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles_home.js container ---- */
+#particles-js {
+  display: block;
+  z-index: 3;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#particles-polygons {
+  display: block;
+  z-index: 3;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+#particles-nasa {
+  display: block;
+  z-index: 3;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
