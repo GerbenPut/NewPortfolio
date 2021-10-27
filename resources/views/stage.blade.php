@@ -67,7 +67,7 @@
                             <a href="{{ asset('stagedocs/Stageplannen/PVA.docx') }}" download>
                                 <p>Stageplan 1: PVA.docx</p>
                                 <br>
-                            </a>            
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                         <a href="{{ asset('stagedocs/Stageplannen/PVA.docx') }}" download>
                                 <p>Stageplan 2: PVA.docx</p>
                                 <br>
-                            </a>   
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -130,11 +130,11 @@
                             <div class="formmargin2">
                                 <h4>Leerdoel 1: Uiteindelijke bewijs.</h4>
                                 <p>Goedkeuring Stageplan</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel1/3.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel1/3.PNG') }}" alt="slider1"/>
                                 <p>Planning met uren</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel1/1.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel1/1.PNG') }}" alt="slider1"/>
                                 <p>Scrumboard</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel1/2.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel1/2.PNG') }}" alt="slider1"/>
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 1: Reflectie.</h4>
@@ -179,13 +179,13 @@
                             <div class="formmargin2">
                                 <h4>Leerdoel 2: Uiteindelijke bewijs.</h4>
                                 <p>De gehele requirements lijst inclusief een Epic.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel2/4.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel2/4.PNG') }}" alt="slider1"/>
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 2: Reflectie.</h4>
                                 <p>Door het opstellen van alle requirements is het voor zowel mij als voor het team duidelijk waar ik de aankomende tijd mee bezig ga zijn. Dit geeft een goed overzicht voor het Project Team.</p>
                                 </br>
-                            </div> 
+                            </div>
                             <div class="formmargin2">
                                 <!-- <p>TODO</p> -->
                                 <h4>Leerdoel 3: Wat wil ik leren?</h4>
