@@ -26,5 +26,6 @@ Route::view('/websites', 'websites');
 Route::view('/puzzle', 'puzzle');
 Route::view('/nietvindbareurl', 'winnaar');
 Route::view('/noelements', 'noelements');
+Route::view('/stage', 'stage');
 Route::get('/contact', [PageController::class, 'contact']);
 Route::post('/contact', [PageController::class, 'PostContact']);

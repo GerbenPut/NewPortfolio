@@ -47,6 +47,10 @@ class PageController extends Controller
     {
         return view('winnaar');
     }
+    public function stage()
+    {
+        return view('stage');
+    }
 
     public function postContact(ContactRequest $request)
     {

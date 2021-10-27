@@ -5076,6 +5076,10 @@ body.subpage {
   color: #000;
 }
 
+img.stageimg {
+  width: 100%;
+}
+
 @media screen and (max-width: 736px) {
   #menu .close {
     height: 4rem;
