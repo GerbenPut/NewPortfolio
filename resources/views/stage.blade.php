@@ -256,7 +256,7 @@
                                 <p>Status code uitleg.</p>
                                 <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/10.png') }}" alt="slider1"/>
                                 <p>Bericht in de wachtrij.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/10.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/11.png') }}" alt="slider1"/>
                                 
                             </div>
                             <div class="formmargin2">
