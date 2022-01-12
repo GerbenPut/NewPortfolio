@@ -130,11 +130,11 @@
                             <div class="formmargin2">
                                 <h4>Leerdoel 1: Uiteindelijke bewijs.</h4>
                                 <p>Goedkeuring Stageplan</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel1/3.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel1/3.PNG') }}" alt="slider1"/>
                                 <p>Planning met uren</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel1/1.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel1/1.PNG') }}" alt="slider1"/>
                                 <p>Scrumboard</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel1/2.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel1/2.PNG') }}" alt="slider1"/>
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 1: Inzichten verkregen.</h4>
@@ -184,7 +184,7 @@
                             <div class="formmargin2">
                                 <h4>Leerdoel 2: Uiteindelijke bewijs.</h4>
                                 <p>De gehele requirements lijst inclusief een Epic.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel2/4.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel2/4.PNG') }}" alt="slider1"/>
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 2: Inzichten verkregen.</h4>
@@ -236,27 +236,27 @@
                                     Bij het oproepen wordt de informatie terug gestuurd naar de normale wachtrij en herhaalt het process.<br>
                                 </p>
                                 <p>De code structuur van de boven beschreven code.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/1.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/1.png') }}" alt="slider1"/>
                                 <p>De structuur van MPM</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/2.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/2.png') }}" alt="slider1"/>
                                 <p>De structuur van TXTOMedia.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/3.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/3.png') }}" alt="slider1"/>
                                 <p>De structuur van de database en wachtrijen.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/4.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/4.png') }}" alt="slider1"/>
                                 <p>Een model die meegegeven wordt in de wachtrijen.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/5.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/5.png') }}" alt="slider1"/>
                                 <p>Een stuk code die de Model in de wachtrij stopt.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/6.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/6.png') }}" alt="slider1"/>
                                 <p>Een stuk code die de model uit de wachtrij haald.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/7.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/7.png') }}" alt="slider1"/>
                                 <p>Status voor het runnen van de code.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/8.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/8.png') }}" alt="slider1"/>
                                 <p>Status na het runnen van de code.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/9.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/9.png') }}" alt="slider1"/>
                                 <p>Status code uitleg.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/10.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/10.png') }}" alt="slider1"/>
                                 <p>Bericht in de wachtrij.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel3/10.png') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel3/10.png') }}" alt="slider1"/>
                                 
                             </div>
                             <div class="formmargin2">
@@ -321,13 +321,13 @@
                                 <p>Daarbij heb ik om de twee weken via Teams uitgelegd hoe alles werkt om zo mijn kennis over te brengen in het bedrijf.</p>
                                 <p>Hieronder staan enkele afbeeldingen waar ik mee aan wil tonen hoe ik het heb overgebracht naar het bedrijf.</p>
                                 <br><br>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel4/1.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel4/1.PNG') }}" alt="slider1"/>
                                 <p>Een sketch die laat zien hoe bestanden gemaakt voor Dyad, Blender en FFMPEG via Fresca (de hoofdapplicatie) naar Azure Batch worden overgeplaatst doormiddel van de Management App.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel4/2.PNG') }}" alt="slider2"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel4/2.PNG') }}" alt="slider2"/>
                                 <p>Een UML in helicopterzicht de applicatie laat zien. Dit laat voornamelijk de stroom zien in welke volgorde functies, wachtrijen en connecties plaatsvinden.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel4/3.PNG') }}" alt="slider3"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel4/3.PNG') }}" alt="slider3"/>
                                 <p>Een UML om alle modellen (Dyad, Blender en FFMPEG model) te weergeven en hoe de structuur van de code is. Dit is belangrijk voor de volgende programmeurs die met de code moeten werken.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel4/4.PNG') }}" alt="slider4"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel4/4.PNG') }}" alt="slider4"/>
                                 <p>Zoals te zien is heb ik ook alle methodes en belangrijke punten gedocumenteerd. Dit zodat de volgende volgende programmeurs die met de code moeten werken gemakkelijk de code op kunnen pakken</p>
                             </div>
                             <div class="formmargin2">
@@ -335,7 +335,7 @@
                                 <p>Door het adviseren aan mijn mede collegas kreeg ik vragen. Vragen die ik van te voren had kunnen beantwoorden die voor mij logisch waren.
                                     Door te adviseren ben ik beter gaan nadenken over mijn denkwijze en hoe ik deze over kan brengen in mijn code. Ook heb ik extra stukken geschreven op de wiki over hoe ik mijn eigen code voor ogen zie en hoe ik de werkwijze bedoeld heb.
                                 </p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel4/5.PNG') }}" alt="slider4"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel4/5.PNG') }}" alt="slider4"/>
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 4: Reflectie.</h4>
@@ -383,11 +383,11 @@
                             <div class="formmargin2">
                                 <h4>Leerdoel 4: Uiteindelijke bewijs.</h4>
                                 <p>Let op. Dit is een herhaling van leerdoel 4. Echter was het te relevate informatie om er uit te laten bij leerdoel 4.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel4/1.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel4/1.PNG') }}" alt="slider1"/>
                                 <p>Een sketch die laat zien hoe bestanden gemaakt voor Dyad, Blender en FFMPEG via Fresca (de hoofdapplicatie) naar Azure Batch worden overgeplaatst doormiddel van de Management App.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel4/2.PNG') }}" alt="slider2"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel4/2.PNG') }}" alt="slider2"/>
                                 <p>Een UML in helicopterzicht de applicatie laat zien. Dit laat voornamelijk de stroom zien in welke volgorde functies, wachtrijen en connecties plaatsvinden.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel4/3.PNG') }}" alt="slider3"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel4/3.PNG') }}" alt="slider3"/>
                                 <p>Een UML om alle modellen (Dyad, Blender en FFMPEG model) te weergeven en hoe de structuur van de code is. Dit is belangrijk voor de volgende programmeurs die met de code moeten werken.</p>
                             </div>
                             <div class="formmargin2">
@@ -473,31 +473,31 @@
                                 <h4>Leerdoel 7: Uiteindelijke bewijs.</h4>
                                 <p>Het uitwerken van de code was een heel veel onderzoek. Ik liep tegen erg veel dingen aan doordat er weinig documentatie is over de code op het internet.</p>
                                 <p>Ik begon mijn onderzoek door te kijken hoe de code kon communiceren met Azure Batch. Het eerste wat ik tegenkwam was de officiele documentatie over Azure Batch.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/1.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/1.PNG') }}" alt="slider1"/>
                                 <p>Ik begon met de tutorial te volgen. Hierin stond wat ik nodig had om mijn eerste connectie te kunnen maken.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/2.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/2.PNG') }}" alt="slider1"/>
                                 <p>De eerste connectie kreeg ik werkende door de volgende gegevens van Azure Batch in te voeren in de code en daarna doormiddel van de API een connectie te schrijven</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/3.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/3.PNG') }}" alt="slider1"/>
                                 <p>Zodra de connectie werkende was kon ik beginnen aan de basis. De basis was duidelijk gedocumenteerd in de Documentatie van Microsoft zelf. Zo leerde ik bijvoorbeeld hoe ik een pool kon maken.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/4.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/4.PNG') }}" alt="slider1"/>
                                 <p>Ik leerde hoe ik een job kon maken.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/5.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/5.PNG') }}" alt="slider1"/>
                                 <p>En ik leerde hoe ik een taak aan kon maken.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/6.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/6.PNG') }}" alt="slider1"/>
                                 <p>Het ergste leek achter de rug. Maar wanneer alles goed blijkt te gaan is het moment dat je helemaal vast komt te zitten.</p>
                                 <p>Ik liep tegen meerdere dingen aan. Zo moest ik bijvoorbeeld automatisch software op de Pool installeren. De Pool moet schaalbaar zijn op de hoeveelheid taken die erin zitten, 1 node per taak, er moeten dus 5 nodes gemaakt worden voor 5 taken. Zijn deze taken klaar? Dan moeten de nodes weer weg om kosten te besparen. De job moet automatisch verwijderd worden evenals de containers die in gebruik waren door deze taak. Meerdere taken moeten tegelijk kunnen renderen. Een pool moet vantevoren aangemaakt worden om tijd te besparen. En zo zijn er nog wel meer dingen.</p>
                                 <p>Elk extra element koste mij veel extra tijd en onderzoek. Hieronder laat ik in een paar afbeeldingen zien hoe ik sommige problemen heb opgelost en hoe ik deze code met documentatie schrijf voor de volgende programmeur die er mee moet werken.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/7.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/7.PNG') }}" alt="slider1"/>
                                 <p>Code met uitleg erbij wat elke methode doet.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/8.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/8.PNG') }}" alt="slider1"/>
                                 <p>Een formule die de Pool schaalbaar maakt voor de hoevelheid taken in de Pool.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/9.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/9.PNG') }}" alt="slider1"/>
                                 <p>Het instellen van de Pools. Zowel Windows als Debian hebben eigen variabelen die belangrijk zijn om mee te geven.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/10.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/10.PNG') }}" alt="slider1"/>
                                 <p>Een TriggerQueue die elk inkomend bericht vanuit Fresca doorstuurt naar de applicatie die ik geschreven heb.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/11.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/11.PNG') }}" alt="slider1"/>
                                 <p>Ook documenteer ik per functie en/of methode alle argumenten en een samenvatting van de methode.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel7/11.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel7/11.PNG') }}" alt="slider1"/>
                                 <p>Per geschreven functie en/of method documenteerd ik ook op de Wiki alle variabelen en doelen van de functie/method.</p>
                                 <p></p>
                             </div>
@@ -582,20 +582,20 @@
                                     Hiervoor heb ik mijn belangrijke onderzoek ook gedocumenteerd om het makkelijker te maken voor de volgende programmeur die hier mee aan de slag gaat.
                                 </p>
                                 <p>Het uitzoeken en begrijpen van Azure Batch koste mij veel tijd. Ik documenteerde onder andere hoe ik een account aan moest maken en moest koppelen.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel9/1.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel9/1.PNG') }}" alt="slider1"/>
                                 <p>Ik onderzocht hoe ik software automatisch kon installeren op een Batch Pool.
                                     Hierbij liep ik tegen veel aan. Onder andere dat je niet zomaar op een Debian (UNIX) server software kon installeren doormiddel van de tool weergeven in de afbeelding hieronder.
                                     Hiervoor moest ik code schrijven die dit deed door middel van een connectie waarbij bij het opstarten van de Pool automatisch de software wordt geinstalleerd.
                                 </p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel9/2.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel9/2.PNG') }}" alt="slider1"/>
                                 <p>Onderzoek wat ik deed wat belangrijk is voor de volgende programmeur heb ik genoteerd in de Wiki.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel9/3.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel9/3.PNG') }}" alt="slider1"/>
                                 <p>Bijna alle code die ik geschreven heb is zelfstandig geweest. Dit zorgt ervoor dat het belangrijk is het goed over te brengen in het team. Hiervoor heb ik al mijn code uitgelegd zowel in de code zelf als in de wiki.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel9/4.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel9/4.PNG') }}" alt="slider1"/>
                                 <p>Ik heb mijn eigen branch aangemaakt om in te werken. Dit zodat het geen problemen veroorzaakt met code die mijn collega's schrijven</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel9/5.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel9/5.PNG') }}" alt="slider1"/>
                                 <p>Ik update en push mijn code regelmatig om het netjes bij te houden.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel9/6.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel9/6.PNG') }}" alt="slider1"/>
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 9: Inzichten verkregen.</h4>
@@ -625,15 +625,15 @@
                                     Hier werk ik actief aan mee.
                                 </p>    
                                 <p>Zo houden elke dag een daily standup, waarin we bespreken wat we hebben gemaakt de dag ervoor, wat we op de huidige dag gaan maken en of we nog vragen/problemen hebben.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel10/1.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel10/1.PNG') }}" alt="slider1"/>
                                 <p>We houden sprint demos aan het einde van de sprint (eens in de twee weken), waarin we het gemaakte werk laten zien.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel10/2.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel10/2.PNG') }}" alt="slider1"/>
                                 <p>We houden sprint retrospectives om te kijken wat er goed gegaan is en wat niet. Ook bespreken we wat de belangrijke verbeter punten zijn voor de volgende sprint.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel10/3.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel10/3.PNG') }}" alt="slider1"/>
                                 <p>We gebruiken een burndown chart om te zien of we op schema lopen.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel10/4.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel10/4.PNG') }}" alt="slider1"/>
                                 <p>Per sprint hebben we user stories die we maken en die zetten we op done om de burndown chart omlaag te halen.</p>
-                                <img class="stageimg" src="{{ asset('stagedocs/leerdoel10/5.PNG') }}" alt="slider1"/>
+                                <img class="stageimg" src="{{ asset('stagedocs/Leerdoel10/5.PNG') }}" alt="slider1"/>
                                 <p>En bij het begin van elke sprint houden we een sprint planning om de nieuwe User Stories op het scrumboard te plaatsen.</p>
                             </div>
                             <div class="formmargin2">
