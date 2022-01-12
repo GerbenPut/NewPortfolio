@@ -411,7 +411,7 @@
                             </div>
                             <div class="formmargin">
                                 <a href="{{ asset('stagedocs/Leerdoel6/strategie.docx') }}" download>
-                                    <p>Stageplan 2: PVA.docx</p>
+                                    <p>Test strategie.docx</p>
                                 </a>
                             </div>
                                 
@@ -531,7 +531,7 @@
                             </div>
                             <div class="formmargin2">
                             <a href="{{ asset('stagedocs/Leerdoel8/testplan.docx') }}" download>
-                                    <p>Stageplan 2: PVA.docx</p>
+                                    <p>Uitgewerkte tests.docx</p>
                                     <br>
                                 </a>
                             </div>
