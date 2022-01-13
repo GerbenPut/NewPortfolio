@@ -18,4 +18,5 @@ mix.sass('resources/sass/app.scss', 'public/css')
 .sass('resources/sass/puzzle.scss', 'public/css')
 .sass('resources/sass/style.scss', 'public/css')
 .sass('resources/sass/main.scss', 'public/css')
-.sass('resources/sass/fontawesome.scss', 'public/css');
+.sass('resources/sass/fontawesome.scss', 'public/css')
+.sass('resources/sass/sidenav.scss', 'public/css');

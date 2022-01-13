@@ -1,0 +1,40 @@
+.sidenav {
+    width: 10vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding-top: 20vh;
+    a {
+        width: 100%;
+        float: left;
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 1.5vh;
+        display: block;
+        color: black;
+        text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15), 0px 2px 20px rgba(2, 51, 206, 0);
+    }
+    a:hover {
+        color: black;
+        background: #666666;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+    }
+}
+
+.formmargin2 {
+    img.stageimg {
+        max-width: 100%;
+    }
+}
+
+.banner.full {
+    z-index: 1200;
+}
+  

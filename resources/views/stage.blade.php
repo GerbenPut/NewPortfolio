@@ -1,6 +1,24 @@
 @extends('layout.master')
 
 @section('content')
+    <link rel="stylesheet" href="{{asset('css/sidenav.css')}}">
+    <div class="sidenav">
+        
+        <a href="#1">Algemene Informatie</a>
+        <a href="#2">Stageplan</a>
+        <a href="#3">Leerdoel 1</a>
+        <a href="#4">Leerdoel 2</a>
+        <a href="#5">Leerdoel 3</a>
+        <a href="#6">Leerdoel 4</a>
+        <a href="#7">Leerdoel 5</a>
+        <a href="#8">Leerdoel 6</a>
+        <a href="#9">Leerdoel 7</a>
+        <a href="#10">Leerdoel 8</a>
+        <a href="#11">Leerdoel 9</a>
+        <a href="#12">Leerdoel 10</a>
+        <a href="#13">Beoordeling</a>
+    </div>
+
     <header id="header" class="alt">
         <div class="logo"><a href="{{url('')}}">Portfolio <span>by GERBEN PUT</span></a></div>
         <a href="#menu">Menu</a>
@@ -29,11 +47,11 @@
 
     <div class="nonmobilehomepage">
 
-        <section id="one" class="wrapper style2 fade-in one">
+        <section id="1" class="wrapper style2 fade-in one">
             <div class="inner2">
                 <div data-aos="fade-up-right" data-aos-delay="700">
                     <div class="box">
-                        <h3>Algemene informatie</h3>
+                        <h3>Algemene informatie - Contact</h3>
                         <div class="formmargin">
                             <div class="formmargin2">
                                 <h4>Naam:</h4><p>Gerben</p>
@@ -44,11 +62,33 @@
                             </div>
                         </div>
                     </div>
+                    <div class="box">
+                        <h3>Algemene informatie - Over TXTOMedia</h3>
+                        <div class="formmargin">
+                            <div class="formmargin2">
+                                <p>Bij TXTOMedia werken ze in een projectteam van zowel hbo- als wo-professionals. Iedereen in het team heeft zijn eigen functies, waarbij ik in dit geval een backend programmeur ben. In de eerste weken van mijn stage zal ik niet in aanraking komen met klanten. Dit zal later in de stageperiode wel plaatsvinden waar nodig.</p>
+                                <p>TXTOmedia levert software as a service waarmee bestaande instructie- en trainingsmaterialen automatisch omgezet worden naar video.  </p>
+                                <p>TXTOmedia's Media Creation Management (MCM) maakt het mogelijk om bestaande instructies en trainingen automatisch om te zetten naar video. Teksten worden omgezet naar audio, illustraties bepalen het beeld of worden vervangen door videofragmenten. Dit alles geheel automatisch en met het oog op hergebruik. Zo kunnen bijvoorbeeld dezelfde videofragmenten opnieuw gebruikt worden tussen verschillende videotitels, of voor dezelfde titel maar in verschillende talen. </p>
+                                <p>Videocreatie gebeurt op een zeer traditionele en arbeidsintensieve wijze. Hergebruik en automatisering vinden nauwelijks plaats. TXTOmedia helpt met name internationale organisaties met veel instructie content (zoals handleidingen) om papieren gebruikers- en service handleidingen te vervangen door (online) video. Hetgeen grote hoeveelheden papier bespaart, en tevens (laaggeletterde) gebruikers op een beter passende wijze instructie geeft, in de taal van de gebruiker. </p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Algemene informatie - Inleiding stageopdracht</h3>
+                        <div class="formmargin">
+                            <div class="formmargin2">
+                                <p>In mijn stage werk in aan een grote, belangrijke opdracht. Het bedrijf heeft momenteel als probleem dat het renderen van visuele beelden niet in codematige functies uitgevoerd kan worden omdat de functies een maximale uitvoertijd hebben van vijf minuten. Het renderen van deze visuele beelden moet dus extern uitgevoerd worden. Mijn taak is om een applicatie te schrijven die van de hoofdwebsite de bestanden en belangrijke informatie ontvangt en dat doorstuurt en klaarzet voor Azure Batch die het dan vervolgens moet uitvoeren. De applicatie moet de bestanden op de juiste manier versturen passend bij de juiste renderapplicatie en daarbij ook virtuele machines activeren om deze renderapplicaties uit te voeren.</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
 
-        <section id="two" class="wrapper style3">
+        <section id="2" class="wrapper style3">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="inner" data-aos-delay="300">
                 <header class="align-center">
                     <p>Plan van aanpak.</p>
@@ -57,7 +97,7 @@
             </div>
         </section>
 
-        <section id="one" class="wrapper style2 fade-in one">
+        <section class="wrapper style2 fade-in one">
             <div class="inner2">
                 <div data-aos="fade-up-left" data-aos-delay="700">
                     <div class="box">
@@ -74,23 +114,7 @@
             </div>
         </section>
 
-        <section id="one" class="wrapper style2 fade-in one">
-            <div class="inner2">
-                <div data-aos="fade-up-right" data-aos-delay="700">
-                    <div class="box">
-                        <h3>Stageplan 2</h3>
-                        <div class="formmargin">
-                        <a href="{{ asset('stagedocs/Stageplannen/PVA.docx') }}" download>
-                                <p>Stageplan 2: PVA.docx</p>
-                                <br>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="two" class="wrapper style3">
+        <section class="wrapper style3">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="inner" data-aos-delay="300">
                 <header class="align-center">
                     <p>Wat ik wilde bereiken en hoe ik dit gedaan heb.</p>
@@ -98,7 +122,7 @@
                 </header>
             </div>
         </section>
-        <section id="two" class="wrapper style2">
+        <section id="3" class="wrapper style2">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="inner" data-aos-delay="300">
             <header data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="600"
                         class="align-center">
@@ -108,7 +132,7 @@
             </div>
         </section>
 
-        <section id="one" class="wrapper style2 fade-in one">
+        <section class="wrapper style2 fade-in one">
             <div class="inner2">
                 <div data-aos="fade-up-right" data-aos-delay="700">
                     <div class="box">
@@ -152,7 +176,7 @@
             </div>
         </section>
 
-        <section id="two" class="wrapper style2">
+        <section id="4" class="wrapper style2">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="inner" data-aos-delay="300">
             <header data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="600"
                         class="align-center">
@@ -162,7 +186,7 @@
             </div>
         </section>
 
-        <section id="one" class="wrapper style2 fade-in one">
+        <section class="wrapper style2 fade-in one">
             <div class="inner2">
                 <div data-aos="fade-up-right" data-aos-delay="700">
                     <div class="box">
@@ -198,8 +222,18 @@
                                 <p>Door het opstellen van alle requirements is het voor zowel mij als voor het team duidelijk waar ik de aankomende tijd mee bezig ga zijn. Dit geeft een goed overzicht voor het Project Team.</p>
                                 </br>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="5" class="wrapper style2 fade-in one">
+            <div class="inner2">
+                <div data-aos="fade-up-right" data-aos-delay="700">
+                    <div class="box">
+                        <h3>Voorbereiding</h3>
+                        <div class="formmargin">
                             <div class="formmargin2">
-                                <!-- <p>TODO</p> -->
                                 <h4>Leerdoel 3: Wat wil ik leren?</h4>
                                 <p>Ik wil na afloop van mijn stage in staat zijn om het ontwerp en de structuur van een al bestaand component te formuleren en valideren, zodat de betrouwbaarheid van dit component verbeterd wordt.</p>
                                 </br>
@@ -279,7 +313,7 @@
             </div>
         </section>
 
-        <section id="two" class="wrapper style2">
+        <section id="6" class="wrapper style2">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="inner" data-aos-delay="300">
             <header data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="600"
                         class="align-center">
@@ -350,7 +384,7 @@
             </div>
         </section>
 
-        <section id="two" class="wrapper style2">
+        <section id="7" class="wrapper style2">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="inner" data-aos-delay="300">
             <header data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="600"
                         class="align-center">
@@ -377,11 +411,11 @@
                                 </br>
                             </div>
                             <div class="formmargin2">
-                                <h4>Leerdoel 4: Bewijs volgens Stageplan.</h4>
+                                <h4>Leerdoel 5: Bewijs volgens Stageplan.</h4>
                                 <p>Doormiddel van een structuur uitleg doormiddel van een schets, en eventuele diagrammen zoals een UML diagram.</p>
                             </div>
                             <div class="formmargin2">
-                                <h4>Leerdoel 4: Uiteindelijke bewijs.</h4>
+                                <h4>Leerdoel 5: Uiteindelijke bewijs.</h4>
                                 <p>Let op. Dit is een herhaling van leerdoel 4. Echter was het te relevate informatie om er uit te laten bij leerdoel 4.</p>
                                 <img class="stageimg" src="{{ asset('stagedocs/Leerdoel4/1.PNG') }}" alt="slider1"/>
                                 <p>Een sketch die laat zien hoe bestanden gemaakt voor Dyad, Blender en FFMPEG via Fresca (de hoofdapplicatie) naar Azure Batch worden overgeplaatst doormiddel van de Management App.</p>
@@ -392,10 +426,24 @@
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 5: Inzichten verkregen.</h4>
-                                Ik heb geleerd goed vooruit te denken en te onderzoeken op het internet hoe ik stukken code moet schrijven zonder het al te programmeren.
-                                Het zorgt ervoor dat je goede code schrijft en extra lang nadenkt over de structuur van de code.
-                                <p></p>
+                                <p>Ik heb geleerd goed vooruit te denken en te onderzoeken op het internet hoe ik stukken code moet schrijven zonder het al te programmeren.
+                                Het zorgt ervoor dat je goede code schrijft en extra lang nadenkt over de structuur van de code.</p>
                             </div>
+                            <div class="formmargin2">
+                                <h4>Leerdoel 5: Reflectie.</h4>
+                                <p>Het kost best wat moeite om alle ontwerpen te schrijven. Het gaf me wel een beter beeld tijdens het programmeren wat erg hielp</p><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="8" class="wrapper style2 fade-in one">
+            <div class="inner2">
+                <div data-aos="fade-up-right" data-aos-delay="700">
+                    <div class="box">
+                        <h3>Voorbereiding</h3>
+                        <div class="formmargin">
                             <div class="formmargin2">
                                 <h4>Leerdoel 6: Wat wil ik leren?</h4>
                                 <p>Ik wil na afloop mijn stage in staat zijn om een teststrategie en testplan op te stellen voor mijn eindproduct van mijn stage opdracht.</p>
@@ -439,7 +487,7 @@
             </div>
         </section>
 
-        <section id="two" class="wrapper style2">
+        <section id="9" class="wrapper style2">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="inner" data-aos-delay="300">
             <header data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="600"
                         class="align-center">
@@ -512,6 +560,17 @@
                                 <p>Tijdens het schrijven van de code heb ik veel geleerd. API's zijn nu veel duidelijker voor mij en ook ben ik veel beter geworden in het onderzoeken van code.</p>
                                 </br>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="10" class="wrapper style2 fade-in one">
+            <div class="inner2">
+                <div data-aos="fade-up-right" data-aos-delay="700">
+                    <div class="box">
+                        <h3>Voorbereiding</h3>
+                        <div class="formmargin">
                             <div class="formmargin2">
                                 <h4>Leerdoel 8: Wat wil ik leren?</h4>
                                 <p>Ik wil na afloop van mijn stage in staat zijn om het eindproduct van mijn stageopdracht te testen, met aandacht voor security aspecten.</p>
@@ -550,7 +609,7 @@
             </div>
         </section>
 
-        <section id="two" class="wrapper style2">
+        <section id="11" class="wrapper style2">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="inner" data-aos-delay="300">
             <header data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="600"
                         class="align-center">
@@ -610,6 +669,17 @@
                                 </p>
                                 </br>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="12" class="wrapper style2 fade-in one">
+            <div class="inner2">
+                <div data-aos="fade-up-right" data-aos-delay="700">
+                    <div class="box">
+                        <h3>Voorbereiding</h3>
+                        <div class="formmargin">
                             <div class="formmargin2"> 
                                 </br>
                                 <h4>Leerdoel 10: Wat wil ik leren?</h4>
@@ -656,7 +726,7 @@
             </div>
         </section>
 
-        <section id="two" class="wrapper style3">
+        <section id="13" class="wrapper style3">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="inner" data-aos-delay="300">
                 <header class="align-center">
                     <p>Beoordeling.</p>
@@ -673,7 +743,7 @@
                         <div class="formmargin">
                             <p>Mijn bedrijfsbegeleider heeft mij beoordeeld op zowel mijn leerdoelen als mijn portfolio. De beoordelingen kan je hieronder downloaden.</p>
                             <a href="{{ asset('stagedocs/Stageplannen/PVA.docx') }}" download>
-                                <p>Stageplan 1: PVA.docx</p>
+                                <p>Advies beoordeling stagebegeleider</p>
                                 <br>
                             </a>
                         </div>
