@@ -6,7 +6,7 @@
         
         <h3>Informatie</h3>
         <a href="#1">Algemene Informatie</a>
-        <a href="#2">Stageh3lan</a>
+        <a href="#2">Stageplan</a>
         <h3>Manage en control</h3>
         <a href="#3">Leerdoel 1</a>
         <a href="#4">Leerdoel 2</a>
@@ -14,13 +14,13 @@
         <a href="#5">Leerdoel 3</a>
         <h3>Adviseren</h3>
         <a href="#6">Leerdoel 4</a>
-        <h3>Ontwerh3en</h3>
+        <h3>Ontwerpen</h3>
         <a href="#7">Leerdoel 5</a>
         <a href="#8">Leerdoel 6</a>
         <h3>Realiseren</h3>
         <a href="#9">Leerdoel 7</a>
         <a href="#10">Leerdoel 8</a>
-        <h3>h3rofessional Skills</h3>
+        <h3>Professional Skills</h3>
         <a href="#11">Leerdoel 9</a>
         <a href="#12">Leerdoel 10</a>
         <h3>Beoordeling</h3>
