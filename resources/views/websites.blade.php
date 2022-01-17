@@ -26,7 +26,7 @@
                         <div class="image fit">
                             <img src="{{ asset('images/portfolio.jpg') }}" alt=""/>
                         </div>
-                        <a href="https://www.gerbenput.com"><h3>Portfolio</h3></a>
+                        <a href="https://gerbenput.com"><h3>Portfolio</h3></a>
                         <blockquote>Dit is de website waarop u zich nu bevindt.
                             Deze website is gemaakt met HTML5, CSS3, PHP en Javascript. De website is gebouwd in Laravel
                             en het laat zien wat voor werk ik tot nu toe gemaakt heb!
