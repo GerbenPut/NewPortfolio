@@ -749,7 +749,7 @@
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 9: Feedback begeleider.</h4>
-                                <p>Gerben is super gemotiveerd en hijilde vanaf dag één gelijk aan de slag gaan met programmeren. Gerben kwam er al snel achter dat hij eerst veel onderzoek moest doen voor het programmeren. Gerben heeft alles goed zelfstandig uitgewerkt en heeft doorgezet wanneer het niet in één keer lukte. Een goede tip voor Gerben is het altijd goed onderzoeken voor hij begint aan het programmeren. Dit is minder leuk werk maar het hoort er helaas wel bij!</p>
+                                <p>Gerben is super gemotiveerd en hij wilde vanaf dag één gelijk aan de slag gaan met programmeren. Gerben kwam er al snel achter dat hij eerst veel onderzoek moest doen voor het programmeren. Gerben heeft alles goed zelfstandig uitgewerkt en heeft doorgezet wanneer het niet in één keer lukte. Een goede tip voor Gerben is het altijd goed onderzoeken voor hij begint aan het programmeren. Dit is minder leuk werk maar het hoort er helaas wel bij!</p>
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 9: Reflectie op feedback.</h4>

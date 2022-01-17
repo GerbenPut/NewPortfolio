@@ -26,7 +26,7 @@
                         <div class="image fit">
                             <img src="{{ asset('images/portfolio.jpg') }}" alt=""/>
                         </div>
-                        <a href="https://www.overmijzelf.nl"><h3>Portfolio</h3></a>
+                        <a href="https://www.gerbenput.com"><h3>Portfolio</h3></a>
                         <blockquote>Dit is de website waarop u zich nu bevindt.
                             Deze website is gemaakt met HTML5, CSS3, PHP en Javascript. De website is gebouwd in Laravel
                             en het laat zien wat voor werk ik tot nu toe gemaakt heb!
@@ -43,9 +43,28 @@
                 <div data-aos="fade-up" data-aos-delay="400">
                     <div class="box">
                         <div class="image fit">
+                            <img src="{{ asset('images/ronin.png') }}" alt=""/>
+                        </div>
+                        <a href="https://sourceartz.com/ronin"><h3>Ronin</h3></a>
+                        <blockquote>De website Ronin is een project dat ik in mijn vrije tijd heb gemaakt. Het is een Web Applicatie die doormiddel van een API
+                            een connectie maakt met een mobiele app genaamd Line, waar mensen dingen in opschrijven die berekend en opgeslagen worden in een database.
+                            De website is gemaakt in Laravel met PHP, Javascript, HTML5 en CSS3.
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="one" class="wrapper style2">
+        <div class="inner2 fade-in one">
+            <div class="grid-style2">
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <div class="box">
+                        <div class="image fit">
                             <img src="{{ asset('images/wessfun.jpg') }}" alt=""/>
                         </div>
-                        <a href="https://wessfun.recoded.nl"><h3>Wessfun</h3></a>
+                        <a href=""><h3>Wessfun</h3></a>
                         <blockquote>De website Wessfun is een schoolproject dat ik met mijn team heb gemaakt in de
                             tweede klas tijdens mijn eerste studie (MBO Niveau 4 Developer). Wessfun is bedoeld
                             om een foto of video te kunnen uploaden waar mensen vervolgens commentaar
