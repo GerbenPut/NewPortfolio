@@ -61,4 +61,13 @@ class PageController extends Controller
 
         return redirect()->back()->with('success', 'Email has been send succesfully');
     }
+
+    public function postStage(Request $request)
+    {
+        $request->validate([
+            'password' => 'required',
+        ]);
+        // return redirect()->back();
+        return redirect()->back()->with('password', implode(",", $request->only('password')));
+    }
 }

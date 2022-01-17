@@ -1,6 +1,7 @@
 @extends('layout.master')
 
 @section('content')
+
     <!-- Header -->
     <header id="header" class="alt">
         <div class="logo"><a href="{{url('')}}">Portfolio <span>by GERBEN PUT</span></a></div>

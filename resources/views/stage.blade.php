@@ -1,9 +1,39 @@
 @extends('layout.master')
 
-@section('content')
+@section('content')    
+    <header id="header" class="alt">
+        <div class="logo"><a href="{{url('')}}">Portfolio <span>by GERBEN PUT</span></a></div>
+        <a href="#menu">Menu</a>
+    </header>
+    <section class="banner full">
+        <article>
+            <img src="{{ asset('images/image1.jpg') }}" alt="slider1"/>
+            <div class="inner">
+                <header>
+                    <p>A portfolio by <a href="{{ url('home') }}">GERBEN</a></p>
+                    <h2 class="welcometext">Welcome</h2>
+                </header>
+            </div>
+        </article>
+        <article>
+            <img src="{{ asset('images/image1.jpg') }}" alt="slider1"/>
+            <div class="inner">
+                <header>
+                    <p>TXTOMEDIA</p>
+                    <h2 class="welcometext">internship</h2>
+                </header>
+            </div>
+        </article>
+    </section>
+
+
+    @if(session()->has('password'))
+        <?php 
+            if( session()->get('password') == '0984460' ) {
+        ?>
+    
     <link rel="stylesheet" href="{{asset('css/sidenav.css')}}">
     <div class="sidenav">
-        
         <h3>Informatie</h3>
         <a href="#1">Algemene Informatie</a>
         <a href="#2">Stageplan</a>
@@ -27,34 +57,7 @@
         <a href="#13">Beoordeling</a>
     </div>
 
-    <header id="header" class="alt">
-        <div class="logo"><a href="{{url('')}}">Portfolio <span>by GERBEN PUT</span></a></div>
-        <a href="#menu">Menu</a>
-    </header>
-
-    <section class="banner full">
-        <article>
-            <img src="{{ asset('images/image1.jpg') }}" alt="slider1"/>
-            <div class="inner">
-                <header>
-                    <p>A portfolio by <a href="{{ url('home') }}">GERBEN</a></p>
-                    <h2 class="welcometext">Welcome</h2>
-                </header>
-            </div>
-        </article>
-        <article>
-            <img src="{{ asset('images/image1.jpg') }}" alt="slider1"/>
-            <div class="inner">
-                <header>
-                    <p>TXTOMEDIA</p>
-                    <h2 class="welcometext">internship</h2>
-                </header>
-            </div>
-        </article>
-    </section>
-
     <div class="nonmobilehomepage">
-
         <section id="1" class="wrapper style2 fade-in one">
             <div class="inner2">
                 <div data-aos="fade-up-right" data-aos-delay="700">
@@ -333,7 +336,7 @@
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 3: Feedback begeleider.</h4>
-                                <p>Gerben heeft een product van een van zijn collega’s gevalideerd. Hij heeft hiervoor de documentatie van de Wiki gebruikt en hij heeft kritisch gekeken naar het product. Ook heeft Gerben contact gezocht met de collega die het gevalideerde product geschreven had om een terugkoppeling te geven.</p>
+                                <p>Gerben heeft een product van een van zijn collega's gevalideerd. Hij heeft hiervoor de documentatie van de Wiki gebruikt en hij heeft kritisch gekeken naar het product. Ook heeft Gerben contact gezocht met de collega die het gevalideerde product geschreven had om een terugkoppeling te geven.</p>
                             </div>
                             <div class="formmargin2">
                                 <h4>Leerdoel 3: Reflectie op feedback.</h4>
@@ -848,4 +851,77 @@
             </div>
         </section>
     </div>
+                <?php
+            } else {
+                ?> 
+                <section id="one" class="wrapper style2 fade-in one">
+        <div class="inner2">
+            <div data-aos="fade-up-right" data-aos-delay="700">
+                <div class="box">
+
+
+                    <!-- Form -->
+                    <h3>Studentnummer Gerben</h3>
+
+                    <form method="POST" action="{{ url('stage') }}">
+                        {{ csrf_field() }}
+                        {{ method_field('POST') }}
+                        <div class="formmargin">
+                            <div class="formmargin2">
+                                <input type="password" name="password" id="password" value="{{ old('pass') }}" placeholder="********"/>
+
+                                @if($errors->any('password'))
+                                    @foreach($errors->get('password') as $error)
+                                        {{ $error }}<br>
+                                    @endforeach
+                                @endif
+                            </div>
+                            <!-- Break -->
+                            <div class="formmargin2">
+                                <input class="formmargin3" type="submit" value="Send Password" id="sendButton"/>
+                                <button class="formmargin3 alt2" type="button" disabled>Fout nummer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+                <?php
+            }
+        ?>
+    @else
+    <section id="one" class="wrapper style2 fade-in one">
+        <div class="inner2">
+            <div data-aos="fade-up-right" data-aos-delay="700">
+                <div class="box">
+
+
+                    <!-- Form -->
+                    <h3>Studentnummer Gerben</h3>
+
+                    <form method="POST" action="{{ url('stage') }}">
+                        {{ csrf_field() }}
+                        {{ method_field('POST') }}
+                        <div class="formmargin">
+                            <div class="formmargin2">
+                                <input type="password" name="password" id="password" value="{{ old('pass') }}" placeholder="********"/>
+
+                                @if($errors->any('password'))
+                                    @foreach($errors->get('password') as $error)
+                                        {{ $error }}<br>
+                                    @endforeach
+                                @endif
+                            </div>
+                            <!-- Break -->
+                            <div class="formmargin2">
+                                <input class="formmargin3" type="submit" value="Send Password" id="sendButton"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    @endif
 @endsection
