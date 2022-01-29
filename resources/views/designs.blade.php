@@ -29,6 +29,60 @@
         </div>
     </article>
     <article>
+        <img src="{{ asset('images/mic.jpg') }}" alt=""/>
+        <div class="inner">
+            <header>
+                <p>3D design</p>
+                <h2 class="h2">Microphone</h2>
+            </header>
+        </div>
+    </article>
+    <article>
+        <img src="{{ asset('images/donut.jpg') }}" alt=""/>
+        <div class="inner">
+            <header>
+                <p>3D design</p>
+                <h2 class="h2">Donut</h2>
+            </header>
+        </div>
+    </article>
+    <article>
+        <img src="{{ asset('images/couch.jpg') }}" alt=""/>
+        <div class="inner">
+            <header>
+                <p>3D design</p>
+                <h2 class="h2">Couch</h2>
+            </header>
+        </div>
+    </article>
+    <article>
+        <img src="{{ asset('images/couch2.jpg') }}" alt=""/>
+        <div class="inner">
+            <header>
+                <p>3D design</p>
+                <h2 class="h2">Couch</h2>
+            </header>
+        </div>
+    </article>
+    <article>
+        <img src="{{ asset('images/couch3.jpg') }}" alt=""/>
+        <div class="inner">
+            <header>
+                <p>3D design</p>
+                <h2 class="h2">Couch</h2>
+            </header>
+        </div>
+    </article>
+    <article>
+        <img src="{{ asset('images/couch4.jpg') }}" alt=""/>
+        <div class="inner">
+            <header>
+                <p>3D design</p>
+                <h2 class="h2">Couch</h2>
+            </header>
+        </div>
+    </article>
+    <article>
         <img src="{{ asset('images/image8.jpg') }}" alt=""/>
         <div class="inner">
             <header>
