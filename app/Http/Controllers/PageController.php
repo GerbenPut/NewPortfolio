@@ -55,7 +55,7 @@ class PageController extends Controller
     public function postContact(ContactRequest $request)
     {
         $mailable = new ContactRequested($request->only('name', 'email', 'message'));
-        $mail = \Mail::to(env('MAIL_FROM_ADDRESS'));
+        $mail = \Illuminate\Support\Facades\Mail::to(env('MAIL_FROM_ADDRESS'));
         if($request->has('email_copy')) $mail->cc($request->get('email'));
         $mail->send($mailable);
 
