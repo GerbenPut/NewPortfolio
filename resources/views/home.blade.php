@@ -15,7 +15,7 @@
                 <img src="{{ asset('images/image1.jpg') }}" alt="slider1"/>
                 <div class="inner">
                     <header>
-                        <p>A portfolio by <a href="gerbenput.com">GERBEN</a></p>
+                        <p>A portfolio by <a href="{{ url('') }}">GERBEN</a></p>
                         <h2 class="welcometext">Welcome</h2>
                     </header>
                 </div>
@@ -87,7 +87,7 @@
                 <article>
                     <div class="inner">
                         <header>
-                            <p>A portfolio by <a href="gerbenput.com">GERBEN</a></p>
+                            <p>A portfolio by <a href="{{ url('') }}">GERBEN</a></p>
                             <h2 class="welcometext">Welcome</h2>
                         </header>
                     </div>
