@@ -50,19 +50,19 @@
                     <img src="{{ asset('images/image2.jpg') }}" alt=""/>
                 </article>
             </section>
-            <div class="layer" data-depth="0.45">
+            <div class="layer" data-depth="0.60">
                 <object class="svg" data="{{ asset('csvs/1.svg') }}"> </object>
             </div>
-            <div class="layer" data-depth="0.43">
+            <div class="layer" data-depth="0.55">
                 <object class="svg" data="{{ asset('csvs/2.svg') }}"> </object>
             </div>
-            <div class="layer" data-depth="0.41">
+            <div class="layer" data-depth="0.50">
                 <object class="svg" data="{{ asset('csvs/3.svg') }}"> </object>
             </div>
-            <div class="layer" data-depth="0.39">
+            <div class="layer" data-depth="0.45">
                 <object class="svg" data="{{ asset('csvs/4.svg') }}"> </object>
             </div>
-            <div class="layer" data-depth="0.37">
+            <div class="layer" data-depth="0.40">
                 <object class="svg" data="{{ asset('csvs/5.svg') }}"> </object>
             </div>
             <div class="layer" data-depth="0.35">
@@ -83,7 +83,7 @@
             <div class="layer" data-depth="0">
                 <object class="scroll" data="{{ asset('csvs/scroll.svg') }}"> </object>
             </div>
-            <section class="layer banner2 full" data-depth="0.26">
+            <section class="layer banner2 full" data-depth="0.4">
                 <article>
                     <div class="inner">
                         <header>
