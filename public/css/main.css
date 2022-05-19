@@ -2607,12 +2607,12 @@ button[disabled] {
   /* Firefox */
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1280px) {
   .mobile {
     display: none;
   }
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1280px) {
   .snap-parallax {
     display: none;
   }

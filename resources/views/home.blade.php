@@ -11,7 +11,6 @@
     <div class="mobile">
         <section class="banner full">
             <article>
-                <!-- <div id="particles-js2"></div> -->
                 <img src="{{ asset('images/image1.jpg') }}" alt="slider1"/>
                 <div class="inner">
                     <header>
@@ -21,7 +20,6 @@
                 </div>
             </article>
             <article>
-                <!-- <div id="particles-polygons2"></div> -->
                 <img src="{{ asset('images/image2.jpg') }}" alt=""/>
                 <div class="inner">
                     <header>
@@ -31,7 +29,6 @@
                 </div>
             </article>
             <article>
-                <!-- <div id="particles-nasa2"></div> -->
                 <img src="{{ asset('images/image3.jpg') }}" alt=""/>
                 <div class="inner">
                     <header>
