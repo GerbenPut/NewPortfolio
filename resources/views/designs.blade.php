@@ -27,7 +27,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="h2">Microphone</h2>
+                    <h2 class="welcometext">Microphone</h2>
                 </header>
             </div>
         </article>
@@ -36,7 +36,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="h2">Donut</h2>
+                    <h2 class="welcometext">Donut</h2>
                 </header>
             </div>
         </article>
@@ -45,7 +45,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="h2">Couch</h2>
+                    <h2 class="welcometext">Couch</h2>
                 </header>
             </div>
         </article>
@@ -54,7 +54,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="h2">Couch</h2>
+                    <h2 class="welcometext">Couch</h2>
                 </header>
             </div>
         </article>
@@ -63,7 +63,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="h2">Couch</h2>
+                    <h2 class="welcometext">Couch</h2>
                 </header>
             </div>
         </article>
@@ -72,7 +72,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="h2">Couch</h2>
+                    <h2 class="welcometext">Couch</h2>
                 </header>
             </div>
         </article>
@@ -81,7 +81,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="h2">VEROX</h2>
+                    <h2 class="welcometext">VEROX</h2>
                 </header>
             </div>
         </article>
@@ -90,7 +90,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="h2">TREX</h2>
+                    <h2 class="welcometext">TREX</h2>
                 </header>
             </div>
         </article>
@@ -99,7 +99,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="h2">Briezy</h2>
+                    <h2 class="welcometext">Briezy</h2>
                 </header>
             </div>
         </article>
@@ -108,7 +108,7 @@
             <div class="inner">
                 <header>
                     <p>2D Intro</p>
-                    <h2 class="h2">Richer</h2>
+                    <h2 class="welcometext">Richer</h2>
                 </header>
             </div>
         </article>
@@ -117,7 +117,7 @@
             <div class="inner">
                 <header>
                     <p>2D Intro</p>
-                    <h2 class="h2">Dutch intro battle</h2>
+                    <h2 class="welcometext">DIB</h2>
                 </header>
             </div>
         </article>
@@ -126,7 +126,7 @@
             <div class="inner">
                 <header>
                     <p>2D Thumbnail</p>
-                    <h2 class="h2">DeadlyResets</h2>
+                    <h2 class="welcometext">DR</h2>
                 </header>
             </div>
         </article>
@@ -135,7 +135,7 @@
             <div class="inner">
                 <header>
                     <p>2D Banner</p>
-                    <h2 class="h2">Bandito</h2>
+                    <h2 class="welcometext">Bandito</h2>
                 </header>
             </div>
         </article>
