@@ -27,7 +27,7 @@
             <div class="inner">
                 <header>
                     <p>3D design</p>
-                    <h2 class="welcometext">Microphone</h2>
+                    <h2 class="welcometext">Mic</h2>
                 </header>
             </div>
         </article>
