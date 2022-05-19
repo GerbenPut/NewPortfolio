@@ -39,7 +39,7 @@
 <nav id="menu">
     <ul class="links align-center" id="pageCurrent">
         <li><a class="pageselect">Open in current page</a></li>
-        <li><a href="{{url('')}}">Home</a></li>
+        <li><a href="gerbenput.com">Home</a></li>
         <li><a href="{{ url('designs') }}">Designs</a></li>
         <li><a href="{{ url('websites') }}">Websites</a></li>
         <li><a href="{{ url('contact') }}">Contact</a></li>
@@ -47,7 +47,7 @@
     </ul>
     <ul class="links align-center" id="pageNew">
         <li><a class="pageselect">Open in another page</a></li>
-        <li><a href="{{url('')}}" target="_blank">Home</a></li>
+        <li><a href="gerbenput.com" target="_blank">Home</a></li>
         <li><a href="{{ url('designs') }}" target="_blank">Designs</a></li>
         <li><a href="{{ url('websites') }}" target="_blank">Websites</a></li>
         <li><a href="{{ url('contact') }}">Contact</a></li>
