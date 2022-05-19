@@ -1972,17 +1972,17 @@ body.subpage {
     padding-top: 3.25em;
 }
 
-@keyframes reveal-header {
-    0% {
-        top: -4em;
-        opacity: 0;
-    }
+// @keyframes reveal-header {
+//     0% {
+//         top: -4em;
+//         opacity: 0;
+//     }
 
-    100% {
-        top: 0;
-        opacity: 1;
-    }
-}
+//     100% {
+//         top: 0;
+//         opacity: 1;
+//     }
+// }
 
 #header {
     background: rgba(0, 0, 0, 0.975);
@@ -2082,9 +2082,9 @@ body.subpage {
 
 }
 
-#header.reveal {
-    animation: reveal-header 0.5s ease;
-}
+// #header.reveal {
+//     animation: reveal-header 0.5s ease;
+// }
 
 #header.alt {
     animation: none;
@@ -2312,47 +2312,7 @@ body.subpage {
     visibility: hidden;
     width: 100%;
     z-index: 2;
-}
-
-.banner .indicators {
-    bottom: 1.5em;
-    left: 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    z-index: 2;
-}
-
-.banner .indicators li {
-    cursor: pointer;
-    display: inline-block;
-    height: 2em;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-    text-indent: 2em;
-    width: 2em;
-}
-
-.banner .indicators li:before {
-    background: rgba(255, 255, 255, 0.35);
-    border-radius: 100%;
-    content: '';
-    display: inline-block;
-    height: 0.8em;
-    left: 50%;
-    margin: -0.4em 0 0 -0.4em;
-    position: absolute;
-    text-indent: 0;
-    top: 50%;
-    width: 0.8em;
-}
-
-.banner .indicators li.visible:before {
-    background: #fff;
+    
 }
 
 .banner > article {
@@ -2375,6 +2335,9 @@ body.subpage {
 
 @media screen and (min-width: 980px) {
     .banner > article {
+        transform: scale(1.3);
+    }
+    .banner:after {
         transform: scale(1.3);
     }
     
@@ -2670,18 +2633,18 @@ body.is-mobile .banner > article {
 .formmargin3 {
     margin: 1% 1% 2% 0;
 }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+// @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-.fade-in {
-    opacity:0;  /* make things invisible upon start */
-    animation:fadeIn ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:1s;
-}
+// .fade-in {
+//     opacity:0;  /* make things invisible upon start */
+//     animation:fadeIn ease-in 1;
+//     animation-fill-mode:forwards;
+//     animation-duration:1s;
+// }
 
-.fade-in.one {
-    animation-delay: 0.4s;
-}
+// .fade-in.one {
+//     animation-delay: 0.4s;
+// }
 
 button[disabled]
 {

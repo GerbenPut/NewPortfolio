@@ -48,16 +48,9 @@
         <div id="parallax">
             <section class="layer banner full layer2" data-depth="0.16">
                 <article>
-                    <div id="particles-js"></div>
-                    <img src="{{ asset('images/image1.jpg') }}" alt="slider1"/>
-                </article>
-                <article>
                     <div id="particles-polygons"></div>
+                    <div id="particles-js"></div>
                     <img src="{{ asset('images/image2.jpg') }}" alt=""/>
-                </article>
-                <article>
-                    <div id="particles-nasa"></div>
-                    <img src="{{ asset('images/image3.jpg') }}" alt=""/>
                 </article>
             </section>
             <div class="layer" data-depth="0.45">
