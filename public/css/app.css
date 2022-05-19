@@ -4922,6 +4922,11 @@ body.subpage {
     padding-right: 1em;
   }
 }
+#header.reveal {
+  -webkit-animation: reveal-header 3s ease;
+          animation: reveal-header 3s ease;
+}
+
 #header.alt {
   -webkit-animation: none;
           animation: none;
@@ -5123,7 +5128,7 @@ body.subpage {
 
 .banner:after {
   pointer-events: none;
-  transition: opacity 1.5s ease-in-out, visibility 1.5s;
+  transition: opacity 3s ease-in-out, visibility 3s;
   background: #000000;
   content: "";
   display: block;
@@ -5138,7 +5143,7 @@ body.subpage {
 }
 
 .banner > article {
-  transition: opacity 1.5s ease, visibility 1.5s;
+  transition: opacity 3s ease, visibility 3s;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -5183,7 +5188,7 @@ body.subpage {
 }
 
 .banner > article .inner {
-  transition: opacity 1.5s ease, visibility 1.5s;
+  transition: opacity 3s ease, visibility 3s;
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -5297,6 +5302,170 @@ body.is-loading .banner:after {
   }
 }
 body.is-mobile .banner > article {
+  background-attachment: scroll;
+}
+
+.banner2 {
+  color: #e2d1df;
+  padding: 8em 0;
+  position: relative;
+}
+
+.banner2.full {
+  padding: 0;
+  min-height: 100vh;
+  height: 100vh !important;
+}
+
+.banner2:after {
+  pointer-events: none;
+  transition: opacity 3s ease-in-out, visibility 3s;
+  background: #000000;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+  z-index: 2;
+}
+
+.banner2 > article {
+  transition: opacity 3s ease, visibility 3s;
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100vw;
+  z-index: 500000;
+}
+
+@media screen and (min-width: 980px) {
+  .banner2 > article {
+    transform: scale(1.3);
+  }
+
+  .banner2:after {
+    transform: scale(1.3);
+  }
+}
+.banner2 > article:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.banner2 > article:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.15;
+}
+
+.banner2 > article .inner {
+  transition: opacity 3s ease, visibility 3s;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 10;
+}
+
+@media screen and (min-width: 980px) {
+  .banner2 > article .inner {
+    transform: translateX(-20vw);
+  }
+}
+.banner2 > article h2 {
+  font-size: 7rem;
+  margin-bottom: 0;
+  color: #FFF;
+  font-weight: 300;
+}
+
+.banner2 > article h2:after {
+  display: none;
+}
+
+.banner2 > article p {
+  color: #00c3bc;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 1.75rem;
+  letter-spacing: 0.25rem;
+}
+
+.banner2 > article p:after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+.banner2 > article a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.banner2 > article.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+body.is-loading .banner2:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media screen and (max-width: 1280px) {
+  .banner2.full {
+    padding: 0;
+    min-height: 100vh;
+    height: 100vh !important;
+  }
+}
+@media screen and (max-width: 980px) {
+  .banner2.full {
+    padding: 0;
+    min-height: 50vh;
+    height: 50vh !important;
+  }
+
+  .banner2 > article {
+    background-attachment: scroll;
+  }
+}
+@media screen and (max-width: 736px) {
+  .banner2 > article .inner {
+    width: 90%;
+  }
+
+  .banner2 > article p {
+    margin-bottom: 1rem;
+  }
+
+  .banner2 > article h2 {
+    font-size: 1em;
+  }
+}
+body.is-mobile .banner2 > article {
   background-attachment: scroll;
 }
 
@@ -5422,6 +5591,39 @@ body.is-mobile .banner > article {
   margin: 1% 1% 2% 0;
 }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+          animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
 button[disabled] {
   opacity: 1;
   background-color: #00c3bc !important;
@@ -5519,6 +5721,64 @@ button[disabled] {
 @media screen and (max-width: 980px) {
   .snap-parallax {
     display: none;
+  }
+}
+.scroll {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: bounce-7;
+          animation-name: bounce-7;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+@-webkit-keyframes bounce-7 {
+  0% {
+    transform: scale(0.15) translate(325vw, 280vh);
+  }
+  10% {
+    transform: scale(0.15) translate(325vw, 280vh);
+  }
+  30% {
+    transform: scale(0.15) translate(325vw, 270vh);
+  }
+  50% {
+    transform: scale(0.15) translate(325vw, 280vh);
+  }
+  57% {
+    transform: scale(0.15) translate(325vw, 275vh);
+  }
+  64% {
+    transform: scale(0.15) translate(325vw, 280vh);
+  }
+  100% {
+    transform: scale(0.15) translate(325vw, 280vh);
+  }
+}
+
+@keyframes bounce-7 {
+  0% {
+    transform: scale(0.15) translate(325vw, 280vh);
+  }
+  10% {
+    transform: scale(0.15) translate(325vw, 280vh);
+  }
+  30% {
+    transform: scale(0.15) translate(325vw, 270vh);
+  }
+  50% {
+    transform: scale(0.15) translate(325vw, 280vh);
+  }
+  57% {
+    transform: scale(0.15) translate(325vw, 275vh);
+  }
+  64% {
+    transform: scale(0.15) translate(325vw, 280vh);
+  }
+  100% {
+    transform: scale(0.15) translate(325vw, 280vh);
   }
 }
 canvas {

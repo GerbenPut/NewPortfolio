@@ -23,16 +23,7 @@
 <div class="snap">
     <section id="redirecttodesign" class="banner full">
         <article>
-            <img src="{{ asset('images/image1.jpg') }}" alt="slider1"/>
-            <div class="inner">
-                <header>
-                    <p>2D design</p>
-                    <h2 class="h2">Gerben</h2>
-                </header>
-            </div>
-        </article>
-        <article>
-            <img src="{{ asset('images/mic.jpg') }}" alt=""/>
+            <img src="{{ asset('images/mic.jpg') }}" alt="slider1"/>
             <div class="inner">
                 <header>
                     <p>3D design</p>

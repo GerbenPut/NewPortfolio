@@ -80,7 +80,10 @@
             <div class="layer" data-depth="0.26">
                 <object class="svgc2" data="{{ asset('csvs/c2.svg') }}"> </object>
             </div>
-            <section class="layer banner full" data-depth="0.26">
+            <div class="layer" data-depth="0">
+                <object class="scroll" data="{{ asset('csvs/scroll.svg') }}"> </object>
+            </div>
+            <section class="layer banner2 full" data-depth="0.26">
                 <article>
                     <div class="inner">
                         <header>
