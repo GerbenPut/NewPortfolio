@@ -10,3 +10,5 @@ require('./menu_toggler');
 require('./particles_toggler');
 require('./util');
 require('./easteregg');
+require('./jquery.parallax.js');
+require('./panelsnap');

@@ -57,23 +57,25 @@
 
 @yield('content')
 
+<div class="snap">
 <!-- Footer -->
-<footer id="footer">
-    <div class="container">
-        <ul class="icons">
-            <li><a href="https://www.facebook.com/gerben.put.5" class="icon fa-facebook"><span
-                        class="label">Facebook</span></a></li>
-            <li><a href="https://www.instagram.com/g3rbennn/?hl=nl" class="icon fa-instagram"><span class="label">Instagram</span></a>
-            </li>
-            <li><a href="mailto:gerbenputprivate@gmail.com" class="icon fa-envelope-o" target="_self"><span
-                        class="label">Email</span></a>
-            </li>
-        </ul>
-    </div>
-    <div class="copyright">
-        &copy; Gerben Put. All rights reserved.
-    </div>
-</footer>
+    <footer id="footer">
+        <div class="container">
+            <ul class="icons">
+                <li><a href="https://www.facebook.com/gerben.put.5" class="icon fa-facebook"><span
+                            class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/g3rbennn/?hl=nl" class="icon fa-instagram"><span class="label">Instagram</span></a>
+                </li>
+                <li><a href="mailto:gerbenputprivate@gmail.com" class="icon fa-envelope-o" target="_self"><span
+                            class="label">Email</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            &copy; Gerben Put. All rights reserved.
+        </div>
+    </footer>
+</div>
 
 @if(View::hasSection('ids'))
     @yield('ids')
@@ -87,6 +89,13 @@
 </script>
 
 <!-- Scripts -->
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/panelsnap.js') }}" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        window.panelsnap = new PanelSnap();
+    });
+</script>
 {{--<script src="{{ mix('js/jquery.min.js') }}"></script>--}}
 {{--<script src="{{ mix('js/particles.js') }}"></script>--}}
 {{--<script src="{{ mix('js/jquery.scrollex.min.js') }}"></script>--}}
