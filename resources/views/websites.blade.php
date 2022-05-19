@@ -23,7 +23,7 @@
     <!-- Main -->
     <div class="snap">
         <section id="one" class="wrapper style2">
-            <div class="inner2 fade-in one">
+            <div class="inner2 one">
                 <div class="grid-style2">
                     <div data-aos="fade-up" data-aos-delay="400">
                         <div class="box">
