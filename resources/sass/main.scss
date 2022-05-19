@@ -2940,13 +2940,13 @@ scrollbar-width: none;  /* Firefox */
 
 
 @keyframes bounce-7 {
-    0%   { transform: scale(0.15)       translate(325vw, 280vh); }
-    10%  { transform: scale(0.15)       translate(325vw, 280vh); }
-    30%  { transform: scale(0.15)       translate(325vw, 270vh); }
-    50%  { transform: scale(0.15)       translate(325vw, 280vh); }
-    57%  { transform: scale(0.15)       translate(325vw, 275vh); }
-    64%  { transform: scale(0.15)       translate(325vw, 280vh); }
-    100% { transform: scale(0.15)       translate(325vw, 280vh); }
+    0%   { transform: scale(0.21)       translate(234vw, 195vh); }
+    10%  { transform: scale(0.21)       translate(234vw, 195vh); }
+    30%  { transform: scale(0.21)       translate(234vw, 185vh); }
+    50%  { transform: scale(0.21)       translate(234vw, 195vh); }
+    57%  { transform: scale(0.21)       translate(234vw, 190vh); }
+    64%  { transform: scale(0.21)       translate(234vw, 195vh); }
+    100% { transform: scale(0.21)       translate(234vw, 195vh); }
 }
 
 // @keyframes bounce-7 {
